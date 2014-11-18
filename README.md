@@ -4,6 +4,8 @@
 
 bitmap and SDF text for ThreeJS
 
+WORK IN PROGRESS
+
 ## Usage
 
 [![NPM](https://nodei.co/npm/three-sdf-text.png)](https://nodei.co/npm/three-sdf-text/)
