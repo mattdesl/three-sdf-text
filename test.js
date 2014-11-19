@@ -73,9 +73,7 @@ function run(fontImage) {
     app.on('render', function(dt) {
         textObj.rotation += dt/1000 * 0.15
 
-        text.begin()
         text.draw(app.camera, textObj)
-        text.end()
 
         app.renderer.resetGLState()
     })
