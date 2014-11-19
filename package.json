@@ -1,6 +1,6 @@
 {
   "name": "three-sdf-text",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "SDF text rendering for ThreeJS",
   "main": "index.js",
   "license": "MIT",
