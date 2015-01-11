@@ -18,6 +18,6 @@ void main() {
     vec4 base = v_col * vec4(alpha);
 
     gl_FragColor = base;
-    if (gl_FragColor.a<0.1)
+    if (gl_FragColor.a<0.0001)
         discard;
 }
