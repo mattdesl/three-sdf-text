@@ -1,5 +1,4 @@
 var Promise = require('bluebird')
-var load = Promise.promisify(require('scriptjs'))
 var domready = Promise.promisify(require('domready'))
 var img = Promise.promisify(require('img'))
 
@@ -7,20 +6,16 @@ var fontImageSrc = 'font/LatoBlack-sdf.png'
 var Font = require('./font/LatoBlack-sdf.json')
 
 var img = require('img')
-var path = 'bower_components/three.js/build/three.js'
+var THREE = require('three')
+window.THREE = THREE
 
 //once we're ready to show the app..
 Promise.all([
     img(fontImageSrc),
-    domready(),
-    load(path)
+    domready()
 ]).spread(function(image) {
     run(image)
 })
-
-// load(path, function() {
-//     domready(run)
-// })
 
 function run(fontImage) {
     var THREE = window.THREE
