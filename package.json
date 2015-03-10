@@ -15,7 +15,7 @@
     "gl-basic-shader": "^1.2.2",
     "gl-mat4": "^1.0.1",
     "gl-shader-core": "^2.2.0",
-    "gl-sprite-text": "^2.2.0",
+    "gl-sprite-text": "^2.3.1",
     "gl-texture2d": "^2.0.8",
     "glslify": "^1.6.0",
     "kami-texture": "^1.1.0",
